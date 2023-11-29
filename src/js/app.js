@@ -9,7 +9,7 @@ const container = document.querySelector('.container');
 const curtainEl = document.querySelector('.curtain');
 
 const port = 'https://ahj-task-8-chat.onrender.com';
-const portWs = 'ws://ahj-task-8-chat.onrender.com';
+const portWs = 'wss://ahj-task-8-chat.onrender.com';
 
 const widget = new ChatWidget(container);
 const toolTip = new ToolTip('tooltip');
