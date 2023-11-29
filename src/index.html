@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Чат</title>
+</head>
+<body>
+    <div class="container">
+        <form class="registration_form" name="registration">
+            <h4 class="registration_title">Выберите псевдоним</h3>
+            <input type="text" class="enter_nickname" name="nickname" placeholder="Minimum 3 characters">
+            <button type="submit" class="send_nickname">Продолжить</button>
+        </form>
+        <div class="chat_box hidden">
+            <div class="users_box">
+                <ul class="users_list"></div>
+            <div class="messages_box">
+                <ul class="messages_list"></ul>
+                <form class="send-message" name="message">
+                    <input type="text" class="enter_message" name="enter" placeholder="Type your message here">
+                </form>
+            </div>
+        </div>
+        <div class="error-message_box hidden">
+            <h3 class="error-message_title">Произошла ошибка</h3>
+            <span class="error-message_text"></span>
+            <button type="button" class="error-message_ok">Ok</button>
+        </div>
+        <div class="curtain hidden"></div>
+    </div>
+</body>
+</html>
